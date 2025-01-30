@@ -18,9 +18,9 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 ##############################################################################
-import re
+import regex as re
 from lxml.html import clean
-from openerp import models
+from odoo import models
 
 
 class CkeditorMonkeypatch(models.AbstractModel):

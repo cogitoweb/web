@@ -23,10 +23,10 @@
 #
 ##############################################################################
 
-from openerp import api, fields
-from openerp.models import Model
-from openerp.exceptions import except_orm
-from openerp.tools.translate import _
+from odoo import api, fields
+from odoo.models import Model
+from odoo.exceptions import except_orm
+from odoo.tools.translate import _
 
 
 class TileTile(Model):

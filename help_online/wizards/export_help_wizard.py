@@ -6,7 +6,7 @@ import logging
 import base64
 import time
 import copy
-import urlparse
+import urllib.parse as urlparse
 from werkzeug.routing import Map, Rule
 from lxml import etree as ET
 from odoo import models, fields, api, exceptions

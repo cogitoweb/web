@@ -2,10 +2,10 @@
 # Copyright 2015-2018 Therp BV <https://therp.nl>
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl.html).
 import operator
-from openerp import _, models, api, fields
-from openerp.tools.safe_eval import safe_eval
-from openerp.exceptions import Warning as UserError
-from openerp.osv import expression
+from odoo import _, models, api, fields
+from odoo.tools.safe_eval import safe_eval
+from odoo.exceptions import Warning as UserError
+from odoo.osv import expression
 
 
 class IrUiMenu(models.Model):

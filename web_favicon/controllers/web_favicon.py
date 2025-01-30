@@ -2,7 +2,7 @@
 # © 2015 Therp BV <http://therp.nl>
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
 
-import StringIO
+import io as StringIO
 import base64
 from odoo import http
 from odoo.tools.misc import file_open
